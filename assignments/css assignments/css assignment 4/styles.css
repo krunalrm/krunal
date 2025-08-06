@@ -1,0 +1,23 @@
+/* Center the entire navbar */
+.navbar {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+/* Style each link */
+.navbar a {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background-color: #0056b3;
+}

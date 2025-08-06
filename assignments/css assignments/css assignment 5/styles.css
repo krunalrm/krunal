@@ -1,0 +1,38 @@
+/* Basic reset and styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically by default */
+  align-items: center;     /* Center horizontally */
+  min-height: 100vh;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Style for boxes */
+.box {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive layout: row direction for wider screens */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; /* Optional: align items to the top */
+  }
+
+  .box {
+    width: 30%;
+  }
+}

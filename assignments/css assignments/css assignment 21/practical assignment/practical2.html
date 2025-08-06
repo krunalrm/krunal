@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Three Column Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .three-columns {
+      display: flex;
+      gap: 20px;
+    }
+
+    .column {
+      flex: 1;
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    @media (max-width: 768px) {
+      .three-columns {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="three-columns">
+    <div class="column">Column 1</div>
+    <div class="column">Column 2</div>
+    <div class="column">Column 3</div>
+  </div>
+
+</body>
+</html>

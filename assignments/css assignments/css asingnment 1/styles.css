@@ -1,0 +1,12 @@
+/* Style for the title */
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Style for the paragraph */
+p {
+    font-family: Arial, sans-serif;
+    color: navy;
+    text-align: justify;
+}

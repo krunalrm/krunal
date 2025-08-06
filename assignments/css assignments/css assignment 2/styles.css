@@ -1,0 +1,31 @@
+/* Set light gray background for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Common styles for all sections */
+div {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    color: #000; /* Default text color */
+}
+
+/* Gradient background for Introduction */
+.introduction {
+    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    color: white;
+}
+
+/* Solid background for Content */
+.content {
+    background-color: #ffe4b5; /* Moccasin color */
+}
+
+/* Solid background for Footer */
+.footer {
+    background-color: #d1c4e9; /* Light purple shade */
+}

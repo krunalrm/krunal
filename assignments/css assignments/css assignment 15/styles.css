@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.gallery-title {
+  margin: 40px 0 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Image Styling with Transformations */
+.gallery img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.gallery img:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}

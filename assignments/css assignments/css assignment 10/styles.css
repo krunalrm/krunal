@@ -1,0 +1,39 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+/* Style links */
+a:link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6c757d;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #dc3545;
+}
+
+/* Style the first line of the paragraph */
+p::first-line {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2em;
+}
+
+/* Add decorative ::before to headings */
+h2::before {
+  content: "★ ";
+  color: gold;
+  font-size: 1.2em;
+}

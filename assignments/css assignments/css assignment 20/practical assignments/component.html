@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tailwind Custom Components</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            customBlue: '#1E40AF',
+            customGreen: '#10B981',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 p-10">
+
+  <!-- Custom Button -->
+  <button class="bg-customBlue hover:bg-customGreen text-white font-bold py-2 px-4 rounded shadow">
+    Click Me
+  </button>
+
+  <!-- Spacer -->
+  <div class="my-10"></div>
+
+  <!-- Custom Card -->
+  <div class="bg-white shadow-md rounded-lg p-6 max-w-sm">
+    <h2 class="text-customBlue text-xl font-semibold mb-2">Card Title</h2>
+    <p class="text-gray-600 mb-4">This is a customizable card using Tailwind.</p>
+    <button class="bg-customGreen text-white px-4 py-2 rounded">Learn More</button>
+  </div>
+
+</body>
+</html>

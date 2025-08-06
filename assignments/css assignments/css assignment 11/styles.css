@@ -1,0 +1,36 @@
+/* Define CSS variables in :root */
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #f0f0f0;
+  --text-color: #333;
+}
+
+/* General styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main content */
+main {
+  padding: 40px 20px;
+  border-top: 4px solid var(--primary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

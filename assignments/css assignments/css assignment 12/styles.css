@@ -1,0 +1,32 @@
+/* Basic page styling */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+/* The animated box */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #007BFF;
+  border-radius: 10px;
+  animation: moveBox 4s infinite alternate ease-in-out;
+}
+
+/* Animation keyframes */
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+    background-color: #007BFF;
+  }
+
+  100% {
+    transform: translateX(80vw); /* Move across most of the screen */
+    background-color: #28a745;  /* Change color to green */
+  }
+}
